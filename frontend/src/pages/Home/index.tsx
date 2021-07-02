@@ -1,9 +1,11 @@
 import React from 'react';
+import MainImage from './images/banner.jpg';
 import './styles.css';
 
 const Home = () => {
     return (
         <div className="home-container">
+            <img className="home-main-image" src={MainImage} alt="MainImage"/>
             <h1 className="home-title">Sobre a Barbearia Alura</h1>
 
             <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba.
