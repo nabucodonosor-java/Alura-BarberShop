@@ -4,9 +4,9 @@ import './styles.css';
 const Navbar = () => {
 
     return (
-        <nav>
-            MENU
-        </nav>
+        <header className="nav-container">
+            <h1 className="nav-title">Barber Shop Alura</h1>
+        </header>
     );
 }
 

@@ -1,15 +1,4 @@
-.home-container {
-    text-align: center;
-}
-
-.home-main-image {
-    width: 100%;
-}
-
-.home-mission-paraph {
-    font-size: 20px;
-}
-
-em strong {
-    color: red;
+.nav-container {
+    background: black;
+    margin: 0;
 }
