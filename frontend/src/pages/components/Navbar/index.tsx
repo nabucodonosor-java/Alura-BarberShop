@@ -1,12 +1,18 @@
 import React from 'react';
+import NavLogo from './images/logo.png';
 import './styles.css';
 
 const Navbar = () => {
 
     return (
-        <header className="nav-container">
-            <h1 className="nav-title">Barber Shop Alura</h1>
-        </header>
+        <nav className="nav-container">
+            <h1><img src={NavLogo} alt="Logo" /></h1>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
     );
 }
 
