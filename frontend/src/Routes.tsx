@@ -1,3 +1,4 @@
+import Footer from 'pages/components/Footer';
 import Navbar from 'pages/components/Navbar';
 import Contacts from 'pages/Contacts';
 import Home from 'pages/Home';
@@ -20,6 +21,7 @@ const Routes = () => (
                 <Contacts />
             </Route>
         </Switch>
+        <Footer />
     </BrowserRouter>
 );
 

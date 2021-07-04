@@ -10,11 +10,15 @@ h1, h2, h3, h4, h5, h6 {
   
   ul {
     list-style-type: none;
-    margin-bottom: 0;
-    padding-left: 0;
+   
   }
 
 a {
     text-decoration: none;
     color: unset;
+}
+
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
 }

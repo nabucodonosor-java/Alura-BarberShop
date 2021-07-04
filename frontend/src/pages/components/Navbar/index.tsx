@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import NavLogo from './images/logo.png';
 import './styles.css';
 
-const Navbar = () => {
+const Navbar = () => { 
 
     return (
         <nav className="nav-container">
